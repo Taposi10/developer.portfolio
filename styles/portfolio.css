@@ -59,4 +59,51 @@ nav li{
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-position:bottom right ;
+
 }
+/* main section */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+
+/* about section style*/
+.about{
+margin-top: 130px;
+background-color:cornsilk ;
+border-radius:10px ;
+padding: 130px 150px;
+text-align: center;
+
+}
+.section-title{
+
+ text-align: center; font-weight:700px ;
+ font-size: 35px;
+ margin-bottom: 30px;
+}
+.section-description{
+    color:blue ;
+    font-size:18px ;
+    margin-bottom: 30px;
+    
+
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about.info-title{
+    font-size: 20px;
+    color: blanchedalmond;
+
+}
+.about.info-description{
+    font-size: 20px;
+    color: violet;
+
+}
+
+
+
